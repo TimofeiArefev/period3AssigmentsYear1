@@ -18,12 +18,6 @@ public class TV
 		this.lockCode = "0000";
 	}
 	
-	public void setLock(String lockCode)
-	{
-		this.isLocked = true;
-		this.lockCode =  lockCode;
-	}	
-	
 	
 	public void setSaftyOn()
 	{
@@ -35,4 +29,53 @@ public class TV
 	}
 	
 
+	public String getBrand()
+	{
+		return this.brand;
+	}
+	
+	public void setBrand(String brand)
+	{
+		this.brand = brand;
+	}
+	
+	public String getModel()
+	{
+		return this.model;
+	}
+	
+	public void setMode(String model)
+	{
+		this.model = model;
+	}
+	
+	public int getChannelNumber()
+	{
+		return this.channel;
+	}
+	
+	public void setChannelNumber(int channel)
+	{
+		this.channel = channel;
+	}
+	
+	public int getVolume()
+	{
+		return this.volume;
+	}
+	
+	public void setVolume(int volume)
+	{
+		this.volume = volume;
+	}
+	
+	public String getLock()
+	{
+		return this.lockCode;
+	}
+	
+	public void setLock(String lockCode)
+	{
+		this.lockCode =  lockCode;
+	}
 }	

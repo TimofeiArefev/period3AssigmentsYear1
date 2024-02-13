@@ -41,51 +41,66 @@ public class Book
         return "You should not start reading this right now";
     }	
 
-	public String getBookName() {
+
+
+
+	public String getBookName() 
+	{
         return bookName;
     }
 
-    public void setBookName(String bookName) {
+    public void setBookName(String bookName) 
+	{
         this.bookName = bookName;
     }
 
-    public String getAuthor() {
+    public String getAuthor() 
+	{
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(String author) 
+	{
         this.author = author;
     }
 
-    public int getPrice() {
+    public int getPrice() 
+	{
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(int price) 
+	{
         this.price = price;
     }
 
-    public boolean isHardCover() {
+    public boolean isHardCover() 
+	{
         return hardCover;
     }
 
-    public void setHasHardCover(boolean hardCover) {
+    public void setHasHardCover(boolean hardCover) 
+	{
         this.hardCover = hardCover;
     }
 
-    public int getNumberOfPages() {
+    public int getNumberOfPages() 
+	{
         return numberOfPages;
     }
 
-    public void setNumberOfPages(int numberOfPages) {
+    public void setNumberOfPages(int numberOfPages) 
+	{
         this.numberOfPages = numberOfPages;
     }
 
-    public int getPagesFinished() {
+    public int getPagesFinished() 
+	{
         return pagesFinished;
     }
 
-    public void setPagesFinished(int pagesFinished) {
+    public void setPagesFinished(int pagesFinished) 
+	{
         this.pagesFinished = pagesFinished;
     }
 }
